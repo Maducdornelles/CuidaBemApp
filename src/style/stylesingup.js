@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
     elevation: 5,
-    fontFamily: 'Rounded Mplus 1c Bold',
+    fontFamily: 'Arial',
     color: '#000',
   },
   checkboxContainer: {
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   label: {
     color: '#000',
-    fontFamily: 'Rounded Mplus 1c Bold',
+    fontFamily: 'Arial',
   },
   defaultButton: {
     width: '100%',
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff',
-    fontFamily: 'Rounded Mplus 1c Bold',
+    fontFamily: 'Arial',
   },
 });
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TextInput } from 'react-native';
-import styles from '../style/stylesingup'; // Caminho correto para o arquivo de estilos
+import styles from '../style/stylesingup'; 
 
 const InputComponent = ({ placeholder, secureTextEntry, keyboardType }) => {
   return (
