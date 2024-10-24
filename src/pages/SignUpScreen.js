@@ -10,12 +10,10 @@ const SignUpScreen = () => {
   const toggleSwitch = () => setChecked(previousState => !previousState);
 
   const handleCreateAccount = () => {
-    // Lógica para criar a conta
     console.log('Criar conta pressionado');
   };
 
   const handleLogin = () => {
-   
     console.log('Já tenho uma conta pressionado');
   };
 

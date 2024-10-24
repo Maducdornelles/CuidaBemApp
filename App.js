@@ -9,7 +9,11 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="SignUp">
-        <Stack.Screen name="SignUp" component={SignUpScreen} />
+        <Stack.Screen 
+          name="SignUp" 
+          component={SignUpScreen} 
+          options={{ headerShown: false }} // Remove a barra superior
+        />
         {/* Adicione mais telas aqui se necessário */}
       </Stack.Navigator>
     </NavigationContainer>

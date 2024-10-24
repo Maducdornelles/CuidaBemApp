@@ -9,13 +9,14 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   icon: {
-    width: 100,
-    height: 100,
+    width: 150,  // Aumentado de 100 para 150
+    height: 150, // Aumentado de 100 para 150
     marginBottom: 20,
+    resizeMode: 'contain',  // Garante que a imagem não será cortada
   },
   input: {
-    width: '100%',
-    height: 50,
+    width: 312, 
+    height: 47, 
     backgroundColor: '#F3F3F3',
     borderRadius: 25,
     paddingHorizontal: 20,
@@ -30,11 +31,13 @@ const styles = StyleSheet.create({
     elevation: 5,
     fontFamily: 'Arial',
     color: '#000',
+    marginVertical: 7, 
   },
   checkboxContainer: {
     flexDirection: 'row',
     marginBottom: 20,
     alignItems: 'center',
+    marginVertical: 5, 
   },
   checkbox: {
     marginRight: 10,
@@ -44,18 +47,19 @@ const styles = StyleSheet.create({
     fontFamily: 'Arial',
   },
   defaultButton: {
-    width: '100%',
-    height: 50,
+    width: 150, 
+    height: 45, 
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 25,
+    marginVertical: 5, 
   },
   createButton: {
     backgroundColor: '#62A4B0',
     marginBottom: 10,
   },
   loginButton: {
-    backgroundColor: '#B0BCBE',
+    backgroundColor: '#62A4B0',
   },
   buttonText: {
     color: '#fff',
